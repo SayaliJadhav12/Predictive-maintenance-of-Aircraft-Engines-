@@ -38,3 +38,36 @@ Sensor Data → Preprocessing → 1D CNN → Embeddings → T5 LLM → Predictio
 
 ---
 
+## 📂 Directory Structure
+project/
+│
+├── data/ # Raw & processed datasets
+├── notebooks/ # Training & experimentation notebooks
+├── artifacts/
+│ └── models/ # Trained model .pt files
+├── src/ # Scripts for training & inference
+├── assets/ # Images, diagrams, screenshots
+└── README.md
+
+---
+
+## 🧩 Challenges & Learnings
+Handling long-term dependencies in sensor data
+Combining CNN embeddings with LLM input sequences
+Visualizing sensor-level contributions for explainability
+Maintaining small dashboard latency with multiple models
+
+---
+
+## 🔮 Future Work
+Integrate real-time sensor streaming
+Add predictive RUL (Remaining Useful Life) forecasting
+Deploy dashboard on cloud for multi-user access
+Fine-tune LLM on larger datasets for higher accuracy
+
+---
+
+## 📈 Results
+Metrics: Accuracy, F1-score, Precision, Recall
+Visualizations: ROC, PR curve, confusion matrix, PCA
+Observations: Hybrid model generally outperforms standalone CNN or LLM
