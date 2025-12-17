@@ -1,1 +1,14 @@
+🧠 Model Files
+The trained model files are available for download:
+
+CNN Model (CNN_model.pt)
+ – https://drive.google.com/file/d/1zkJlcrDFX7lMLp9qrzug4YH0IX4DfTfH/view?usp=drive_link
+
+LLM Model (llm_model.pt)
+ – https://drive.google.com/file/d/1VFvRGXizGFFUCZO9t5O_4IkiKV43wWSF/view?usp=drive_link
+
+Hybrid Model (Hybrid_model.pt)
+ – https://drive.google.com/file/d/1Y-iDHyd0uZ0b7oTzOx_zLrhsLkCKm23t/view?usp=drive_link
+
+Note: Files are large, so GitHub does not host them. Please download from the above links to use inference dashboards.
 
