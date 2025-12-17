@@ -38,19 +38,6 @@ Sensor Data → Preprocessing → 1D CNN → Embeddings → T5 LLM → Predictio
 
 ---
 
-## 📂 Directory Structure
-project/
-│
-├── data/ # Raw & processed datasets
-├── notebooks/ # Training & experimentation notebooks
-├── artifacts/
-│ └── models/ # Trained model .pt files
-├── src/ # Scripts for training & inference
-├── assets/ # Images, diagrams, screenshots
-└── README.md
-
----
-
 ## 🧩 Challenges & Learnings
 Handling long-term dependencies in sensor data
 Combining CNN embeddings with LLM input sequences
