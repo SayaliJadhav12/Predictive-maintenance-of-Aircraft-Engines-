@@ -38,4 +38,3 @@ Sensor Data → Preprocessing → 1D CNN → Embeddings → T5 LLM → Predictio
 
 ---
 
-## 📂 Directory Structure
