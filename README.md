@@ -24,6 +24,79 @@ Sensor Data → Preprocessing → 1D CNN → Embeddings → T5 LLM → Predictio
 
 ---
 
+## ⚙️ Prerequisites
+
+Ensure the following software is installed:
+
+* Python 3.9 or higher
+* pip (Python package manager)
+* Git
+* Jupyter Notebook / JupyterLab
+* Streamlit
+
+Recommended environment:
+
+* Windows / Linux / MacOS
+* Minimum 8 GB RAM for model training
+
+---
+
+## 📥 Installation
+
+Clone the repository:
+
+git clone https://github.com/SayaliJadhav12/Predictive-maintenance-of-Aircraft-Engines-.git
+
+Navigate to the project folder:
+
+cd Predictive-maintenance-of-Aircraft-Engines-
+
+Install required dependencies:
+
+pip install -r requirements.txt
+
+---
+
+## 📁 Project Structure
+
+Predictive-maintenance-of-Aircraft-Engines
+
+├── Dashboard/          # Streamlit dashboards for training and forecasting
+├── Datasets/           # Sensor datasets used for training/testing
+├── Resources/          # Supporting resources and files
+├── notebooks/          # Model development notebooks (CNN, LLM, Hybrid)
+├── preprocess.py       # Data preprocessing and feature engineering
+├── requirements.txt    # Python dependencies
+├── PdMS_PPT2.pptx      # Project presentation
+└── README.md           # Project documentation
+
+---
+
+## ▶️ Running the Project
+
+Step 1: Start Jupyter Notebook
+
+jupyter notebook
+
+Step 2: Open the notebooks folder and run the model notebooks sequentially for:
+
+* Data preprocessing
+* Model training
+* Model evaluation
+
+Step 3: Launch the Streamlit dashboard
+
+streamlit run Dashboard/app.py
+
+Step 4: Use the dashboard to:
+
+* Upload dataset
+* Run inference
+* Visualize model predictions
+* Perform forecasting
+
+---
+
 ## 🚀 Features Implemented
 - Time-series windowing (15-cycle context)
 - 1D CNN for sensor pattern learning
