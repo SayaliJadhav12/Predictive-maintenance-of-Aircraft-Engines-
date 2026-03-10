@@ -62,12 +62,19 @@ pip install -r requirements.txt
 Predictive-maintenance-of-Aircraft-Engines
 
 ├── Dashboard/          # Streamlit dashboards for training and forecasting
+
 ├── Datasets/           # Sensor datasets used for training/testing
+
 ├── Resources/          # Supporting resources and files
+
 ├── notebooks/          # Model development notebooks (CNN, LLM, Hybrid)
+
 ├── preprocess.py       # Data preprocessing and feature engineering
+
 ├── requirements.txt    # Python dependencies
+
 ├── PdMS_PPT2.pptx      # Project presentation
+
 └── README.md           # Project documentation
 
 ---
